@@ -34,6 +34,9 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="makeButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="f6l-uM-cjK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,6 +48,10 @@
                             <constraint firstItem="AOE-QY-2ED" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U7D-hY-i73"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="w1J-Uz-5Hk" id="y7V-b2-g6V"/>
+                        <outlet property="toggleButton" destination="AOE-QY-2ED" id="aea-cW-vcK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
